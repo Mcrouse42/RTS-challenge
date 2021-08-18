@@ -1,0 +1,23 @@
+{
+  "name": "rts-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-beta.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcrouse42/RTS-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mcrouse42/RTS-challenge/issues"
+  },
+  "homepage": "https://github.com/Mcrouse42/RTS-challenge#readme"
+}
