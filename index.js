@@ -7,13 +7,13 @@ var driver = new webdriver.Builder()
       .build();
 
 driver.get('http://www.google.com/ncr');
-driver.findElement(By.name('q')).sendKeys('RTS labs');
+driver.findElement(By.name('q')).sendKeys('RTS Labs');
 driver.wait(check_title, 1000);
 driver.findElement(By.linkText('RTS Labs')).click();
 
 function check_title() {
       var promise = driver.getTitle().then(function (title) {
-            if (title === 'RTS labs - Google Search') {
+            if (title === 'RTS Labs - Google Search') {
                   console.log('success');
                   return true;
             }
